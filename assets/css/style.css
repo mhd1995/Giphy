@@ -1,0 +1,95 @@
+body{
+	line-height: 10px;
+	font-size: 20px;
+	background-image:url('../images/idea (1).jpeg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+  	background-position: 30% 20%; 
+  	background-repeat: repeat-x;
+}
+.inline-block{
+
+	display:inline-block;
+	margin-left: 20px;
+	margin-right:20px;
+}
+button{
+
+  display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+	color:white;
+	margin-right: 90px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left: 80px;
+	background-color: #E48681;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: #FFF;
+}
+
+	button:hover {
+
+		background-color: #DA4F49;
+		border-color: rgba(0,0,0,0.5);
+}
+	
+	button:active {
+
+		background-color: #B32C24;
+		border-color: rgba(0,0,0,0.9);
+}
+
+form {
+	font-family: helvetica; 
+	font-style: italic;
+	margin:auto;
+	margin-right: 90px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+}
+#searchbar{
+	border-radius:15px; 
+	border:1px solid #acb1b7;
+	background-color:#fcfcfc;
+	width: 200px;
+}
+#submit{
+	letter-spacing: 2px;
+	font-size: 12px;
+	border-radius: 5px;;
+	color:white;
+	margin-top:0px;
+	background-color: teal;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+}
+
+.gif-image {
+
+	object-fit: cover;
+	height: 200px;
+	width: 200px;	
+    border: 15px solid white;
+    padding: 25px;
+    border-image-source: url('../images/cloud.png');
+    border-image-repeat: round;
+    border-image-slice: 50;
+   /*border-image-width: 10px;*/
+}
+#gifs-appear-here{
+
+	padding-left: 100px;
+	height: 100%;
+	width: 1000px;
+}
+#buttonSpace {
+	margin: 30px;
+}
